@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.valiton.com/c_caprano/ttl-lru-cache"
+    "url": "https://github.com/valiton/ttl-lru-cache"
   },
   "scripts": {
     "lint": "./node_modules/.bin/jshint . --reporter=./node_modules/jshint-full-path/index.js",

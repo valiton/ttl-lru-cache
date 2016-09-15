@@ -39,6 +39,18 @@ setTimeout(function() {
 
 ```
 
+## Configuration
+
+```javascript
+var options = {
+  gcInterval: 30000 // How often GC happens
+  , maxLength: 1000 // Maximum number of items that can be held in the cache by default.
+  , returnOldValueIfOutdated: false // return the outdated value if the value has expired - default: return undefined
+  , lruWriteCleanUp: 100 // Run the LRU clean up every 'lruWriteCleanUp' writes
+};
+var cache = require('ttl-lru-cache')(options);
+```
+
 ## Benchmark against lru-cache
 
       npm install

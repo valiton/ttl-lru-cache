@@ -33,6 +33,14 @@ describe('ttl-lru-cache', function() {
         done()
       }, 15)
     })
+    it('should return when explicit required and TTL has been exceeded', function(done) {
+      var memory = createCache({returnOldValueIfOutdated: true})
+      memory.set('test', 'hello', 10)
+      setTimeout(function() {
+        should.equal(memory.get('test'), 'hello')
+        done()
+      }, 15)
+    })
     it('should emit when TTL has been exceeded', function(done) {
       var memory = createCache()
       var emitted = 0

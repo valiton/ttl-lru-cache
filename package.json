@@ -1,5 +1,5 @@
 {
-  "author": "Paul Serby <paul@serby.net>",
+  "author": "Paul Serby <paul@serby.net>, Christoph Caprano <christ",
   "name": "ttl-lru-cache",
   "description": "A fast in memory cache with TTL and LRU support",
   "version": "0.0.2",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:serby/ttl-lru-cache"
+    "url": "https://gitlab.valiton.com/c_caprano/ttl-lru-cache"
   },
   "scripts": {
     "lint": "./node_modules/.bin/jshint . --reporter=./node_modules/jshint-full-path/index.js",

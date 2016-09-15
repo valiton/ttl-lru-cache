@@ -1,7 +1,5 @@
 # ttl-lru-cache - A fast in memory cache with TTL and LRU support
 
-[![build status](https://secure.travis-ci.org/valiton/ttl-lru-cache.png)](http://travis-ci.org/valiton/ttl-lru-cache)
-
 ## Installation
 
       npm install ttl-lru-cache

@@ -58,6 +58,7 @@ var cache = require('ttl-lru-cache')(options);
  - Updated dependencies
  - Add config parameter `bool returnOldValueIfOutdated` - Reason: Make following scenario possible: even if item is outdated, return synchronously the old value and start asynchronously an update process
  - Add tests, which test this behavior
+ - Garbage collector can be removed with config `{ gcInterval: false }`
 
 ## Credits
 [Paul Serby](https://github.com/serby/) follow me on twitter [@serby](http://twitter.com/serby)
